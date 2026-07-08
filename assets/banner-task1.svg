@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#43e97b"/>
+      <stop offset="100%" stop-color="#38f9d7"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;0%;100%" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="180" rx="16" fill="#0d1b2a"/>
+  <rect x="2" y="2" width="796" height="176" rx="14" fill="none" stroke="url(#g1)" stroke-width="3"/>
+  <text x="400" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="url(#g1)">Task 1 — Web Scraping</text>
+  <text x="400" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#c0c0c0">books.toscrape.com • 980 Books • 50 Pages</text>
+  <text x="400" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#888">BeautifulSoup • Requests • Pandas</text>
+  <circle r="3" fill="#43e97b" opacity="0.5">
+    <animate attributeName="cx" values="100;700;100" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="30;150;30" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2" fill="#38f9d7" opacity="0.4">
+    <animate attributeName="cx" values="700;100;700" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="150;30;150" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
